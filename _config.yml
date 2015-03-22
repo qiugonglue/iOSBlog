@@ -1,12 +1,17 @@
 # Site settings
 title: 求攻略iOS Team Blog
-email: your-email@domain.com
+email: yosemite@qiugonglue.com
 description: > # this means to ignore newlines until "baseurl:"
   求攻略iOS团队博客
 baseurl: "/iOSBlog" # the subpath of your site, e.g. /blog/
 url: "http://qiugonglue.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username:  qiugonglue
+
+
+sass:
+  sass_dir: _sass
+  style: :compressed
 
 # Build settings
 markdown: kramdown
